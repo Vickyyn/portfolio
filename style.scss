@@ -1,15 +1,25 @@
-/* Color Theme Swatches in Hex */
-$Wilderness-1-hex: #B0C1D9;
-$Wilderness-2-hex: #3B4B59;
-$Wilderness-3-hex: #8EA8BF;
-$Wilderness-4-hex: #D9BFA9;
-$Wilderness-5-hex: #0D0D0D;
+$main-color: #3B4B59;
+$secondary-color: #8EA8BF;
+$tertiary-color: #B0C1D9;
+$juxtaposition-color: #D9BFA9;
+$writing-color: #0D0D0D;
 
-/* Color Theme Swatches in RGBA */
-$Wilderness-1-rgba: rgba(175,193,216, 1);
-$Wilderness-2-rgba: rgba(58,75,89, 1);
-$Wilderness-3-rgba: rgba(141,168,191, 1);
-$Wilderness-4-rgba: rgba(216,191,169, 1);
-$Wilderness-5-rgba: rgba(12,12,12, 1);
+nav {
+        display: flex;
+
+        ul {
+                li {
+                        display: inline; 
+                        text-decoration: none;
+                        color: $tertiary-color;
+                }
+        }
+}
+
+
+nav img {
+        display: none;
+}
+
 
 

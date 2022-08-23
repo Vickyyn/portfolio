@@ -8,44 +8,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation bar -->
-    <nav>
-        <img src="docs/VN.png" alt="logo">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blogs.html">Blogs</a></li>
-        </ul>
-    </nav>
-
-    <!-- Header, may remove in CSS as it is unnecessary -->
+    <!-- Header including logo and nav bar -->
     <header>
-        <h1>Home Page</h1>
+        <img src="docs/logo.png" alt="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="blogs.html">Blogs</a>
+        </nav>  
     </header>
     
     <!-- Hero component -->
     <main>
-        <div id="portrait">
-            <img src="" alt="portrait">
-        </div>
         <div id="main-text">
             <h1>Vicky Nie</h1>
-            <h3>
-                <p>vicky.y.nie@gmail.com</p>
-                <p>+61 400 000 000</p>
-            </h3>
-            <h5>
-                Aspiring Web Developer
-            </h5>
+            <h4>Aspiring Web Developer</h4>
+            <p>vicky.y.nie@gmail.com</p>
+            <p>+61 400 000 000</p>
+        </div>
+        <div id="portrait-div">
+            <img src="docs/portrait.png" id="portrait" alt="portrait">
         </div>
     </main>
 
     <!-- Footer -->
     <footer>
-        <img src="docs/github.svg" alt="Github"><a href=""></a></img>
-        <img src="docs/linkedin.svg" alt="LinkedIn"><a href=""></a></img>
-        <img src="docs/twitter.svg" alt="Twitter"><a href=""></a></img>
-        <img src="docs/instagram.svg" alt="Instagram"><a href=""></a></img>
+        <section>
+            <a href="https://github.com/Vickyyn"><img id="github-pic" src="docs/Github.png" alt="Github"></img></a>
+            <a href="https://au.linkedin.com/"><img src="docs/linkedin.svg" alt="LinkedIn"></img></a>
+            <a href="https://twitter.com/"><img src="docs/twitter.svg" alt="Twitter"></img></a>
+            <a href="https://www.instagram.com/"><img src="docs/instagram.svg" alt="Instagram"></img></a>
+        </section>
         <p>&copy; 2022 Vicky Nie</p>
     </footer>
 </body>
