@@ -5,46 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vicky Nie</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
 </head>
 <body>
-   <!-- Nav bar -->
-    <nav>
-        <img src="docs/VN.png" alt="logo">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blogs.html">Blogs</a></li>
-        </ul>
-    </nav>
-    
-    <!-- Header -->
+    <!-- Header including logo and nav bar -->
     <header>
-        <h1>About Me</h1>
+        <img src="docs/logo.png" alt="logo">
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="blogs.html">Blogs</a>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> -->
+        </nav>  
     </header>
-
-    <!-- Main -->
+    
+    <!-- Main area -->
     <main>
-        <div id="hobbies">
-            <img src="" alt="hobbies-pic">
-        </div>
-        <div>
+        <div class="main-text" id="about-main-text">
+            <h1>About Me</h1>
             <h3>Introduction</h3>
             <p>Looking to transition to a career as a developer, with a background in the health and medical industry.</p>
             <h3>Work and study history</h3>
             <p>Worked in the medical industry for three years after completing a Bachelor of Biomedicine and Doctor of Medicine. Whilst fulfilling, I found it difficult to separate work from personal life, and am looking to transition careers. My first brush with coding was learning C for an elective subject in university, and I loved the analytical and problem solving aspects. I am keen to learn more, and thus am studying the Coder Academy bootcamp.   </p>
-            <a href="docs/Blankresume.pdf">Please see my resume here.</a>
+            <p><a href="docs/Blankresume.pdf">Please see my resume here.</a></p>
             <h3>Interests</h3>
             <p>I love puzzles, board games, travelling, and watching cooking videos.</p>
         </div>
+        <div id="hobbies-pic">
+            <img src="docs/dice.jpg" class="portrait" alt="falling dice">
+            <!-- Photo by <a href="https://unsplash.com/@rihok?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Riho Kroll</a> on <a href="https://unsplash.com/s/photos/games?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+        </div>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer including socials -->
     <footer>
-        <img src="docs/github.svg" alt="Github"><a href=""></a></img>
-        <img src="docs/linkedin.svg" alt="LinkedIn"><a href=""></a></img>
-        <img src="docs/twitter.svg" alt="Twitter"><a href=""></a></img>
-        <img src="docs/instagram.svg" alt="Instagram"><a href=""></a></img>
+        <section>
+            <a href="https://github.com/Vickyyn"><img id="github-pic" src="docs/Github.png" alt="Github"></img></a>
+            <a href="https://au.linkedin.com/"><img src="docs/linkedin.svg" alt="LinkedIn"></img></a>
+            <a href="https://twitter.com/"><img src="docs/twitter.svg" alt="Twitter"></img></a>
+            <a href="https://www.instagram.com/"><img src="docs/instagram.svg" alt="Instagram"></img></a>
+        </section>
         <p>&copy; 2022 Vicky Nie</p>
     </footer>
 </body>
