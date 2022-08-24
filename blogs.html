@@ -5,57 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vicky Nie</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blogs.css">
 </head>
 <body>
     <a id="top"></a>
     
-    <!-- Nav bar -->
-    <nav>
-        <img src="docs/VN.png" alt="logo">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blogs.html">Blogs</a></li>
-        </ul>
-    </nav>
-    
-    <!-- Header -->
+    <!-- Header including logo and nav bar -->
     <header>
-        <h1>Blogs</h1>
+        <img src="docs/logo.png" alt="logo">
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="blogs.html">Blogs</a>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> -->
+        </nav>  
     </header>
     
+    <!-- Main section -->
     <main>
+        <h1>Blogs</h1>
+        <h4>Find inspiration for your next travel destination here!</h4>
         <section>
-            <h4>Find inspiration for your next travel destination here!</h4>
-            <article>
-                <img src="docs/iceland.jpg" alt="canyon">
-                <h4>Ten must visit places in Iceland</h4>
-                <h5>23 August, 2022</h5>
-            </article>
-            <article>
-                <img src="docs/Malaysia.jpg" alt="skyline Kuala Lumpur">
-                <h4>Attractions not to miss in Malaysia</h4>
-                <h5>16 August, 2022</h5>
-            </article>
-            <article>
-                <img src="docs/Norway.jpg" alt="northern lights">
-                <h4>Perfect five day itinerary in Norway</h4>
-                <h5>9 August, 2022</h5>
-            </article>
-            <article>
-                <img src="docs/Taiwan.jpg" alt="night market">
-                <h4>Take yourself to Taiwan</h4>
-                <h5>2 August, 2022</h5>
-            </article>
-            <article>
-                <img src="docs/Germany.jpg" alt="Neuschwanstein Castle">
-                <h4>Find yourself in Germany</h4>
-                <h5>26 July, 2022</h5>
-            </article>
-        </section>
-        <section>
-            <ul>
+            <ul id="blog-list">
                 <li><a href="blog1.html">Ten must visit places in Iceland</a></li>
                 <li><a href="blog2.html">Attractions not to miss in Malaysia</a></li>
                 <li><a href="blog3.html">Perfect five day itinerary in Norway</a></li>
@@ -63,17 +36,46 @@
                 <li><a href="blog5.html">Find yourself in Germany</a></li>
             </ul>
         </section>
+        <section>
+            <article>
+                <img src="docs/iceland.jpg" class="blog-pics" alt="canyon">
+                <h4>Ten must visit places in Iceland</h4>
+                <h5>23 August, 2022</h5>
+            </article>
+            <article>
+                <img src="docs/Malaysia.jpg" class="blog-pics" alt="skyline Kuala Lumpur">
+                <h4>Attractions not to miss in Malaysia</h4>
+                <h5>16 August, 2022</h5>
+            </article>
+            <article>
+                <img src="docs/Norway.jpg" class="blog-pics" alt="northern lights">
+                <h4>Perfect five day itinerary in Norway</h4>
+                <h5>9 August, 2022</h5>
+            </article>
+            <article>
+                <img src="docs/Taiwan.jpg" class="blog-pics" alt="night market">
+                <h4>Take yourself to Taiwan</h4>
+                <h5>2 August, 2022</h5>
+            </article>
+            <article>
+                <img src="docs/Germany.jpg" class="blog-pics" alt="Neuschwanstein Castle">
+                <h4>Find yourself in Germany</h4>
+                <h5>26 July, 2022</h5>
+            </article>
+        </section>
     </main>
 
     <!-- Back to top of page -->
     <a href="#top">Back to top</a>
 
-    <!-- Footer -->
+    <!-- Footer including socials -->
     <footer>
-        <img src="docs/github.svg" alt="Github"><a href=""></a></img>
-        <img src="docs/linkedin.svg" alt="LinkedIn"><a href=""></a></img>
-        <img src="docs/twitter.svg" alt="Twitter"><a href=""></a></img>
-        <img src="docs/instagram.svg" alt="Instagram"><a href=""></a></img>
+        <section>
+            <a href="https://github.com/Vickyyn"><img id="github-pic" src="docs/Github.png" alt="Github"></img></a>
+            <a href="https://au.linkedin.com/"><img src="docs/linkedin.svg" alt="LinkedIn"></img></a>
+            <a href="https://twitter.com/"><img src="docs/twitter.svg" alt="Twitter"></img></a>
+            <a href="https://www.instagram.com/"><img src="docs/instagram.svg" alt="Instagram"></img></a>
+        </section>
         <p>&copy; 2022 Vicky Nie</p>
     </footer>
 </body>

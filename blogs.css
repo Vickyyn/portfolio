@@ -1,0 +1,156 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+</style> 
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-color: #FFF1E3;
+  /* background-color: #ffe5d4; */
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  background-color: #8EA8BF;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 15vw;
+  max-height: 50px;
+  background-color: #3B4B59;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+/* Change logo to orange when hovering over */
+header img:hover {
+  animation: changecolor 5s infinite; 
+}
+
+@keyframes changecolor {
+  0% {
+    background-color: #3B4B59;
+  }
+  50% {
+    background-color: #FD7702;
+  }
+  100% {
+    background-color: #3B4B59;
+  }
+}
+
+.topnav a {
+  font-family: 'Nunito', sans-serif;
+  /* color: #3B4B59; */
+  color: #B0C1D9;
+  /* color: #fafafa; */
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-size: 2rem;
+}
+
+/* Change color when hovering */
+.topnav a:hover {
+  color: #3B4B59;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  font-family: 'Nunito', sans-serif;
+  margin: 2rem;
+}
+
+main h1 {
+  font-size: 3rem;
+  /* color: #3B4B59; */
+  text-align: center;
+}
+
+main h4 {
+  color: #3B4B59;
+  text-align: center;
+}
+
+main section ul {
+    list-style: none;
+    background: rgb(176, 193, 217, 0.2);
+    border-radius: 10%;
+    padding: 1rem;
+    line-height: 1.5em;
+}
+
+#blog-list a {
+    text-decoration: none;
+}
+
+#blog-list a:hover {
+    color: black;
+    font-size: 1.2em;
+}
+
+.blog-pics {
+    height: 100px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8rem;
+  background-color: #8EA8BF;
+  width: 100%;
+}
+
+footer section img {
+  margin: 0 0.5rem;
+}
+
+#github-pic {
+  height: 2.9rem;
+}
+
+/* For bigger screens, formatting to make main side by side */
+@media screen and (min-width: 620px) {
+  header img {
+    height: 3.5rem;
+    margin: 0.75rem;
+  }
+
+  nav a {
+    margin: 0 1.25rem;
+  }
+  
+  main {
+    flex-direction: row;
+    justify-content: center;
+  }
+ 
+  main div {
+    padding: 0 2.5rem;
+  }
+
+}
+
+/* For smaller screens, to make nav bar two lines */
+@media screen and (max-width: 420px) {
+  header {
+    flex-direction: column;
+    padding-bottom: 0.25rem;
+  }
+}
