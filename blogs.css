@@ -81,8 +81,7 @@ main h1 {
 }
 
 main h4 {
-  color: #3B4B59;
-  text-align: center;
+  color: #092c4b;
 }
 
 main section ul {
@@ -102,8 +101,46 @@ main section ul {
     font-size: 1.2em;
 }
 
+/* Make blog pictures look nice, including a reactive overlay */
+.bgimage {
+  position: relative; 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 5%;
+  height: 60vw;
+  width: 60vw;
+  margin: 2rem 0;
+  box-shadow: 5px 5px 10px rgb(253, 119, 2, 0.5);
+}
+
 .blog-pics {
-    height: 100px;
+  height: 60vw; 
+  width: 60vw; 
+  position: absolute;
+  z-index: -1;
+}
+
+.overlay {
+  position: relative;
+  top: 3em;
+  background: rgb(176, 193, 217, 0.4);
+  padding: 0 0 0 0.5em;
+  transition: 1s;
+}
+
+.bgimage:hover .overlay {
+  transform: translateY(-3em);
+  background: rgb(176, 193, 217, 0.6);
+}
+
+#anchornav {
+  font-family: 'Nunito', sans-serif;
+  color: #3B4B59;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 footer {
