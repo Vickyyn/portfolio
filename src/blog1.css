@@ -14,11 +14,11 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   background-color: #FFF1E3;
-  /* background-color: #ffe5d4; */
   margin: 0px;
   padding: 0px;
 }
 
+/* Styling for navbar including logo */
 header {
   display: flex;
   background-color: #8EA8BF;
@@ -61,7 +61,7 @@ header img:hover {
   font-size: 2rem;
 }
 
-/* Change text color when hovering */
+/* Change text color when hovering in navbar */
 .topnav a:hover {
   color: #3B4B59;
 }
@@ -76,11 +76,15 @@ main {
 
 main h1 {
   font-size: 2rem;
-  /* color: #3B4B59; */
 }
 
 main h4 {
   color: #092c4b;
+}
+
+/* Styling for sidebar of blogs */
+#sidebar {
+  margin: 2rem;
 }
 
 #blog-list {
@@ -95,14 +99,15 @@ main h4 {
     text-decoration: none;
 }
 
-/* Enlarge text and make black on hover */
+/* Enlarge blog links and make black on hover */
 #blog-list a:hover {
     color: black;
     font-size: 1.2em;
 }
 
+/* Styling for main photo and caption */
 .blog-pics {
-  height: 60vw; 
+  height: auto; 
   width: 60vw; 
   box-shadow: 5px 5px 10px rgb(253, 119, 2, 0.5);
 }
@@ -116,10 +121,7 @@ main h4 {
     font-size: 0.8rem;
 }
 
-#sidebar {
-    margin: 2rem;
-}
-
+/* Styling for anchor */
 #anchornav {
   font-family: 'Nunito', sans-serif;
   color: #3B4B59;
@@ -128,6 +130,7 @@ main h4 {
   margin-bottom: 1rem;
 }
 
+/* Styling for footer including social links */
 footer {
   display: flex;
   flex-direction: column;
@@ -147,7 +150,7 @@ footer section img {
   height: 2.9rem;
 }
 
-/* For bigger screens, formatting of nav bar  */
+/* For bigger screens, improve formatting of nav bar  */
 @media screen and (min-width: 620px) {
   header img {
     height: 3.5rem;
@@ -172,13 +175,13 @@ footer section img {
 }
     
 
-/* For bigger screens, to make links box on the side */
+/* For bigger screens, to make sidebar on the side */
 @media screen and (min-width: 1000px) {
     main {
         flex-direction: row;
         align-items: flex-start;
         justify-content: flex-start;
-        margin: 1rem 4rem;
+        margin: 3rem 4rem;
     }
 
     /* 3:1 ratio for layout of page */
@@ -192,17 +195,13 @@ footer section img {
 
     #mainimage {
         text-align: left;
-    }
-
-    .blog-pics {
-        max-height: 100%;
-        max-width: 100%;
+        margin: 5rem 0;
     }
 
     /* Sticky sidebar */
     #sidebar {
         flex: 1;
-        margin-top: 9.6rem;
+        margin-top: 11.8rem;
         position: -webkit-sticky;
         position: sticky;
         top: 0;
@@ -216,13 +215,3 @@ footer section img {
         margin: 2rem;
     }
 }
-
-@media screen and (min-width: 1200px) {
-    main {
-        margin: 3rem 3rem;
-    }
-}
-
-
-
-

@@ -14,11 +14,11 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   background-color: #FFF1E3;
-  /* background-color: #ffe5d4; */
   margin: 0px;
   padding: 0px;
 }
 
+/* Styling for nav bar including logo */
 header {
   display: flex;
   background-color: #8EA8BF;
@@ -53,19 +53,18 @@ header img:hover {
 
 .topnav a {
   font-family: 'Nunito', sans-serif;
-  /* color: #3B4B59; */
   color: #B0C1D9;
-  /* color: #fafafa; */
   text-decoration: none;
   margin: 0 0.5rem;
   font-size: 2rem;
 }
 
-/* Change color when hovering */
+/* Change color of navbar text when hovering */
 .topnav a:hover {
   color: #3B4B59;
 }
 
+/* Styling of main content */
 main {
   display: flex;
   flex-direction: column;
@@ -86,7 +85,6 @@ main div {
 
 main div h1 {
   font-size: 3rem;
-  /* color: #3B4B59; */
 }
 
 main div h3 {
@@ -106,6 +104,7 @@ main div p a {
   margin: 2rem;
 }
 
+/* Styling for footer including social links */
 footer {
   display: flex;
   flex-direction: column;
@@ -127,6 +126,7 @@ footer section img {
 
 /* For bigger screens, formatting to make main side by side */
 @media screen and (min-width: 800px) {
+  /* Adjusting navbar styling to be more appropriate for bigger screens */
   header img {
     height: 3.5rem;
     margin: 0.75rem;
@@ -170,4 +170,5 @@ footer section img {
     .portrait {
         max-height: 300px;
         max-width: 300px;
+    }
 }
