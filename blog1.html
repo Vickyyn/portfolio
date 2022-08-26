@@ -5,37 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vicky Nie</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog1.css">
 </head>
 <body>
-    <!-- Nav bar -->
-    <nav>
-        <img src="docs/VN.png" alt="logo">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blogs.html">Blogs</a></li>
-        </ul>
-    </nav>
+    <a id="top"></a>
     
-    <!-- Header -->
+    <!-- Header including logo and nav bar -->
     <header>
-        <h1>Ten must visit places in Iceland</h1>
-        <h2>23 August 2022</h2>
+        <img src="docs/logo.png" alt="logo">
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="blogs.html">Blogs</a>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> -->
+        </nav>  
     </header>
-
-    <!-- Main -->
+    
+    <!-- Main section -->
     <main>
         <section>
-            <img src="docs/iceland.jpg" alt="canyon">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor, iusto reprehenderit odit debitis distinctio totam veritatis commodi assumenda velit a, minus molestias sit porro eius nostrum nesciunt ullam delectus?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, natus quaerat commodi similique, esse error perferendis pariatur hic quidem eaque neque est sint porro corrupti eos cumque omnis aperiam nemo?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis temporibus suscipit consequuntur neque laborum reprehenderit eligendi tempora necessitatibus debitis labore, quidem quibusdam ut, aut incidunt. Voluptatum libero eligendi quisquam magni.</p>    
-            <p><em>Photo by <a href="https://unsplash.com/@jonnyauh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonny Auh</a> on <a href="https://unsplash.com/s/photos/iceland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-            </em></p>
+            <h1>Ten must visit places in Iceland</h1>
+            <h5>23 August, 2022</h5>
+            <div id="mainimage">
+                <img src="docs/iceland.jpg" class="blog-pics" alt="canyon">
+                <p>Photo by <a href="https://unsplash.com/@jonnyauh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonny Auh</a> on <a href="https://unsplash.com/s/photos/iceland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </p>
+            </div>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quasi?</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, iure facilis? Explicabo exercitationem quia quidem similique vitae praesentium ipsa officiis delectus repellendus. Hic dolores magnam veniam debitis ipsam id? Quaerat?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eaque dolor quia eius. Odit quis similique porro repudiandae commodi? Ab facilis corporis hic veritatis quaerat? Maxime labore nemo repellendus nam?</p>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, officiis.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur architecto atque placeat laudantium sit! Iure dignissimos perspiciatis non eligendi excepturi dolore odit iusto ipsum, magnam vero officia. Nemo, quos voluptatibus.</p>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, eveniet.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, inventore voluptatem repellat doloremque facilis dolorum? Adipisci error neque corporis sapiente vero, commodi magnam laboriosam fugit debitis nulla dolore accusamus quidem.</p>
+
         </section>
         <section>
-            <ul>
+            <ul id="blog-list">
                 <li><a href="blog1.html">Ten must visit places in Iceland</a></li>
                 <li><a href="blog2.html">Attractions not to miss in Malaysia</a></li>
                 <li><a href="blog3.html">Perfect five day itinerary in Norway</a></li>
@@ -43,15 +51,38 @@
                 <li><a href="blog5.html">Find yourself in Germany</a></li>
             </ul>
         </section>
+
     </main>
 
-    <!-- Footer -->
+    <!-- Back to top of page -->
+    <a href="#top" id="anchornav">Click to return to top</a>
+
+    <!-- Footer including socials -->
     <footer>
-        <img src="docs/github.svg" alt="Github"><a href=""></a></img>
-        <img src="docs/linkedin.svg" alt="LinkedIn"><a href=""></a></img>
-        <img src="docs/twitter.svg" alt="Twitter"><a href=""></a></img>
-        <img src="docs/instagram.svg" alt="Instagram"><a href=""></a></img>
+        <section>
+            <a href="https://github.com/Vickyyn"><img id="github-pic" src="docs/Github.png" alt="Github"></img></a>
+            <a href="https://au.linkedin.com/"><img src="docs/linkedin.svg" alt="LinkedIn"></img></a>
+            <a href="https://twitter.com/"><img src="docs/twitter.svg" alt="Twitter"></img></a>
+            <a href="https://www.instagram.com/"><img src="docs/instagram.svg" alt="Instagram"></img></a>
+        </section>
         <p>&copy; 2022 Vicky Nie</p>
     </footer>
 </body>
 </html>
+
+<!-- 
+Malaysia:
+Photo by <a href="https://unsplash.com/@seakei?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CK Yeo</a> on <a href="https://unsplash.com/s/photos/malaysia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Iceland: 
+Photo by <a href="https://unsplash.com/@jonnyauh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonny Auh</a> on <a href="https://unsplash.com/s/photos/iceland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+Norway:
+Photo by <a href="https://unsplash.com/es/@johnygoerend?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Johny Goerend</a> on <a href="https://unsplash.com/s/photos/scandinavia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Taiwan:
+Photo by <a href="https://unsplash.com/@thevernon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vernon Raineil Cenzon</a> on <a href="https://unsplash.com/s/photos/taiwan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+Germany:
+Photo by <a href="https://unsplash.com/@martye?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eric Marty</a> on <a href="https://unsplash.com/s/photos/germany?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
