@@ -22,51 +22,59 @@ There are three main pages:
 - Index/home: Core information about myself including name, photo, and contact details. Intentionally left simple to minimise distractions
 - About: More information about my background and skills, including a link to my resume
 - Blogs: Collection of five blog posts. I have put more flair into this page to engage interest, such as with background shadows, animated overlays, and text changes on hover
-  - this page further links to five separate pages of individualised blog posts
+  - this page further links to five separate pages of individualised blog posts  
 
 ## Sitemap
 ---
-![Sitemap](docs/Sitemap.PNG)
+![Sitemap](docs/Sitemap.PNG)  
 
 ## Screenshots 
 ---
 ### Index page
+Desktop:  
+![Desktop index page](docs/Indexdt.png)  
+Tablet landscape:  
+![Tablet index landscape](docs/Indextabh.PNG)  
+Tablet portrait:  
+![Tablet index portrait](docs/Indextabv.PNG)  
+Mobile:  
+![Mobile index](docs/Indexmob.PNG)  
 
+### About page
+Desktop:  
+![Desktop about page](docs/Aboutdt.png)  
+Tablet landscape:  
+![Tablet about landscape](docs/Abouttabh.PNG)  
+Tablet portrait:  
+![Tablet about portrait](docs/Abouttabv.PNG)  
+Mobile:  
+![Mobile about](docs/Aboutmobile.PNG)  
 
+### Blogs page
+Desktop:  
+![Desktop blogs page](docs/Blogsdt.png)  
+Tablet landscape:  
+![Tablet blogs landscape](docs/Blogstabh.PNG)  
+Tablet portrait:  
+![Tablet blogs portrait](docs/Blogstabv.PNG)  
+Mobile:  
+![Mobile blogs](docs/Blogsmobile.PNG)  
 
+### Sample blog page
+Desktop:  
+![Desktop blog page](docs/Blog4dt.png)
+Tablet landscape:  
+![Tablet blog landscape](docs/Blog4tabh.PNG)
+Tablet portrait:  
+![Tablet blog portrait](docs/Blog4tabv.PNG)
+Mobile:  
+![Mobile blog](docs/Blog4mobile.PNG)
 
+## Target audience
+---
+Prospective employers for an aspiring web developer.
 
-
-Link to published portfolio website:
-Link to GitHub repository: 
-Description of portfolio website, including
-- Purpose
-- Functionality / features
-- Sitemap
-- Screenshots
-- Target audience
-- Tech stack 
-
-
-https://color.adobe.com/trends/
-'Wilderness'
-/* Color Theme Swatches in Hex */
-$Wilderness-1-hex: #B0C1D9;
-$Wilderness-2-hex: #3B4B59;
-$Wilderness-3-hex: #8EA8BF;
-$Wilderness-4-hex: #D9BFA9;
-$Wilderness-5-hex: #0D0D0D;
-
-/* Color Theme Swatches in RGBA */
-$Wilderness-1-rgba: rgba(175,193,216, 1);
-$Wilderness-2-rgba: rgba(58,75,89, 1);
-$Wilderness-3-rgba: rgba(141,168,191, 1);
-$Wilderness-4-rgba: rgba(216,191,169, 1);
-$Wilderness-5-rgba: rgba(12,12,12, 1);
-
-/* Color Theme Swatches in HSLA */
-$Wilderness-1-hsla: hsla(213, 34, 76, 1);
-$Wilderness-2-hsla: hsla(208, 20, 29, 1);
-$Wilderness-3-hsla: hsla(208, 28, 65, 1);
-$Wilderness-4-hsla: hsla(28, 38, 75, 1);
-$Wilderness-5-hsla: hsla(0, 0, 5, 1);
+## Technology stack
+---
+HTML and CSS. 
+Website hosted on Netlify.
