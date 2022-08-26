@@ -208,6 +208,10 @@ footer section img {
         top: 0;
     }
 
+    #sidebar li {
+      padding: 0.25em;
+    }
+
     #anchornav {
         margin: 2rem;
     }
