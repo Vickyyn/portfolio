@@ -71,7 +71,7 @@ main {
   flex-direction: column;
   align-items: center; 
   font-family: 'Nunito', sans-serif;
-  margin: 2rem;
+  margin: 1rem 2rem;
 }
 
 main h1 {
@@ -109,12 +109,16 @@ main h4 {
 
 #mainimage {
     text-align: center;
+    margin: 3rem;
 }
 
 #mainimage p {
     font-size: 0.8rem;
 }
 
+#sidebar {
+    margin: 2rem;
+}
 
 #anchornav {
   font-family: 'Nunito', sans-serif;
@@ -143,7 +147,7 @@ footer section img {
   height: 2.9rem;
 }
 
-/* For bigger screens, formatting  */
+/* For bigger screens, formatting of nav bar  */
 @media screen and (min-width: 620px) {
   header img {
     height: 3.5rem;
@@ -154,29 +158,67 @@ footer section img {
     margin: 0 1.25rem;
   }
 
-  #articles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .bgimage {
-    max-height: 400px;
-    max-width: 400px;
-    margin: 3rem;
-    box-shadow: 10px 10px 20px rgb(253, 119, 2, 0.5);
-  }
-
-  .blog-pics {
-    max-height: 400px;
-    max-width: 400px;
+  main {
+    margin: 1rem 3rem;
   }
 }
 
 /* For smaller screens, to make nav bar two lines */
 @media screen and (max-width: 420px) {
-  header {
-    flex-direction: column;
-    padding-bottom: 0.25rem;
-  }
+    header {
+      flex-direction: column;
+      padding-bottom: 0.25rem;
+    }
 }
+    
+
+/* For bigger screens, to make links box on the side */
+@media screen and (min-width: 1000px) {
+    main {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 1rem 4rem;
+    }
+
+    /* 3:1 ratio for layout of page */
+    #maintext {
+        flex: 3;
+    }
+
+    #maintext h1 {
+        font-size: 2.5rem;
+    }
+
+    #mainimage {
+        text-align: left;
+    }
+
+    .blog-pics {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    /* Sticky sidebar */
+    #sidebar {
+        flex: 1;
+        margin-top: 9.6rem;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+    #anchornav {
+        margin: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        margin: 3rem 3rem;
+    }
+}
+
+
+
+
