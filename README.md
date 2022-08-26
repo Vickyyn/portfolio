@@ -7,11 +7,11 @@
 &nbsp;  
 
 ## Purpose
----
+
 An easy to navigate website that showcases my skills, interests and background to prospective employers looking for a developer.
 
 ## Functionality and features
----
+
 The website is simple in design to bring focus to the information conveyed. It utilises a blue theme with complementary orange colours for subtle highlights. The pages are responsive across mobile, tablets, and desktop. 
 
 
@@ -25,11 +25,11 @@ There are three main pages:
   - this page further links to five separate pages of individualised blog posts  
 
 ## Sitemap
----
+
 ![Sitemap](docs/Sitemap.PNG)  
 
 ## Screenshots 
----
+
 ### Index page
 Desktop:  
 ![Desktop index page](docs/Indexdt.png)  
@@ -62,19 +62,19 @@ Mobile:
 
 ### Sample blog page
 Desktop:  
-![Desktop blog page](docs/Blog4dt.png)
+![Desktop blog page](docs/Blog4dt.png)  
 Tablet landscape:  
-![Tablet blog landscape](docs/Blog4tabh.PNG)
+![Tablet blog landscape](docs/Blog4tabh.PNG)  
 Tablet portrait:  
-![Tablet blog portrait](docs/Blog4tabv.PNG)
+![Tablet blog portrait](docs/Blog4tabv.PNG)  
 Mobile:  
-![Mobile blog](docs/Blog4mobile.PNG)
+![Mobile blog](docs/Blog4mobile.PNG)  
 
 ## Target audience
----
+
 Prospective employers for an aspiring web developer.
 
 ## Technology stack
----
+
 HTML and CSS. 
 Website hosted on Netlify.
