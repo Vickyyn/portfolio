@@ -119,14 +119,15 @@ footer section img {
 }
 
 /* For bigger screens, formatting to make main side by side */
+/* Tablet */
 @media screen and (min-width: 620px) {
   header img {
     height: 3.5rem;
     margin: 0.75rem;
   }
 
-  nav a {
-    margin: 0 1.25rem;
+  .topnav a {
+    margin: 0 0.75rem;
   }
   
   main {
@@ -153,6 +154,13 @@ footer section img {
   .portrait {
     height: 30vw;
     max-height: 400px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1400px) {
+  main div {
+    padding: 8rem;
   }
 }
 
